@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry website</title>
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+    <style>
+        iframe{
+            /* align-items: center; */
+            margin-left: 25%;
+            margin-bottom: 5%;
+        }
+        .row{
+            margin-top: 10%;
+        }
+        .container{
+            /* margin-top: 20px; */
+            padding-top: 40px;
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+     <!-- Navigation bar start -->
+    <header> 
+        <div>
+             <ul class="navbar fs-4 bg-dark">
+                <div class="logo">
+                    <img src="new_logo.jpeg" alt="logo">
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="regi.html">Register</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container-fluid pt-5 pb-3" style="background-color:rgb(194, 193, 193);">
+        <div class="container">
+            <h6 class="text-dark text-uppercase text-center font-weight-medium mb-3">Our Services</h6>
+            <h1 class="display-4 text-center mb-5 text-dark">What We Offer</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 pb-1">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4" style="height: 300px;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-3x fa-cloud-sun text-drak"></i>
+                        </div>
+                        <h4 class="font-weight-bold m-0 text-dark">Dry Cleaning</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-1">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4" style="height: 300px;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
+                            <i class="fas fa-3x fa-soap text-dark"></i>
+                        </div>
+                        <h4 class="font-weight-bold m-0 text-dark">Wash & Laundry</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-1">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4" style="height: 300px;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-3x fa-burn text-dark"></i>
+                        </div>
+                        <h4 class="font-weight-bold m-0 text-dark">Curtain Laundry</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-1">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4" style="height: 300px;">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-3x fa-tshirt text-dark"></i>
+                        </div>
+                        <h4 class="font-weight-bold m-0 text-dark">Suits Cleaning</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- new services -->
+    <!-- <div class="container-fluid pt-0" style="background-color:rgb(194, 193, 193);">
+        <div class="container" >
+            <h2 class="font-weight-medium text-dark">Laundry & Press Services in Jalgaon with impactable quality</h2>
+
+        </div>
+            <div class="row">
+                <div class="col-lg-6 col-12" > -->
+                    <!-- <img src="img/" alt=""> -->
+                    <!-- <h5>Separate Wash For Each Customer</h5> -->
+                    <!-- <h5><img id="pic1"src="img/lab.png" alt="">Garment Care Label Adherence</h5><h5><img id="pic1"src="img/doo.png" alt="">Color Bleeding Proof Process</h5> -->
+                    <!-- <h5><img id="pic"src="img/shrink.png" alt="">Zero Shrinkage Guaranteed</h5> -->
+                    <!-- <h5><img id="pic1"src="img/iron1.png" alt="">Crisp Wrinkle Free Steam Iron</h5>
+                    <h5><img id="pic1"src="img/recycle.png" alt="">100% Fabric Life & Color Preserved</h5> -->
+                    <!-- <h4>Get Amazing</h4>
+                    <h5>in Your City in 24H</h5>
+                    <h2>Never worry about staining your favourite clothes.</h2>
+                    <h2>We offer laundry dry cleaning and ironing at a schedule that fits your lifestyle</h2>
+                    <button type="button" class="btn btn-warning">Learn more</button> -->
+                <!-- </div>
+                <div class="col-md-5">
+                    <img class="png"src="img/stem.jpg" alt="" style="width: 35rem;padding-bottom: 30px;">
+                </div>
+            </div>
+        </div>
+    </div> -->
+                    
+ 
+    <!-- Service -->
+    <div class="container-fluid" style="background-color:rgb(194, 193, 193);" >
+        <div class="container">
+            <div class="heading"> 
+                <h1>Our Services</h1>
+            </div>
+            <div class="row"> 
+                <div class="card" style="width: 20rem; margin: 30px" >
+                    <img src="Images/dry_cleaning.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dry Cleaning</h5>
+                      <p class="card-text">Dry cleaning is a process where garments are cleaned using a chemical solvent. We use Hydro Carbon machine, to process your Delicate garments!</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div> 
+                <div class="card" style="width: 20rem; margin: 30px" >
+                    <img src="img/washandfold.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Wash and fold</h5>
+                      <p class="card-text">Garments are processed using 100% bio-degradable detergents. Ideal for daily, gym & casual wear. Price starts from Rs.18 for Wash & Fold.</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div> 
+                <div class="card" style="width: 20rem;margin: 30px; ">
+                    <img src="img/wash-and-iron.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Wash & Iron</h5>
+                      <p class="card-text">Garments are processed using 100% bio-degradable detergents. Ideal for daily, gym & casual wear. Price starts from Rs.18 for Wash & Iron.</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;margin: 30px; ">
+                    <img src="img/curtain.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Curtain Care</h5>
+                      <p class="card-text">we will wash your clothes and deliver them to your doorstep, surely you will like our service</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;margin: 30px; ">
+                    <img src="img/bedclean.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bedsheet Cleaning</h5>
+                      <p class="card-text">we will wash your clothes and deliver them to your doorstep, surely you will like our service</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem; margin: 30px">
+                    <img src="img/stem.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Steam Iron</h5>
+                      <p class="card-text">Laundry Kart uses Steam Ironing Machines to ensure minimal exposure to heat and intact softness of clothes.</p>
+                      <a href="#" class="btn btn-primary">Enquire Now</a>
+                    </div>
+                </div>
+                <div>
+                <h1><center>My Google Map</center></h1>
+                    <!-- Map container -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.26817361648!2d73.72107787343833!3d19.99110534141749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddd290b09914b3%3A0xcb07845d9d28215c!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716974768819!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark">
+        <div class="container-fluid">
+            <div class="container px-5 my-0">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h3>CLEANZA</h3>
+                        <p>A New Era of laundry Excellence</p>
+                        <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://in.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                        <h4 class="text-white mb-4">Get In Touch</h4>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>  Jalgaon , Maharashtra , India</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>  +91 8584865016</p>
+                        <p><i class="fa fa-envelope mr-2"></i>cleanzainfo@gmail.com</p>
+                </div>
+                    <div class="col-lg-3 col-md-6 mb-5">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a>
+                            <a class="text-white mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                            <a class="text-white mb-2" href="order.html"><i class="fa fa-angle-right mr-2"></i>Order</a>
+                            <a class="text-white mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
+                        <p class="m-0 text-center text-white">
+                            &copy; <a class="text-white font-weight-medium" href="#">CLEANZA</a>. All Rights Reserved.Designed by <a class="text-white font-weight-medium" href="https://htmlcodex.com">Komal Kapade</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="animate.js"></script>
+
+</html>

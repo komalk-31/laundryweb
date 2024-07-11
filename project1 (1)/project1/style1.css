@@ -1,0 +1,96 @@
+
+button{
+    width: 300px;
+    background-color:aqua;
+    color:black;
+    font-weight: bolder;
+    margin-top: 20px;
+    /* border: 0px  gray; */
+    border: 3px;
+    border-style: outset;
+    border-color: grey;
+
+}
+button:hover{
+    font-size: 20px;
+    color: blue;
+}
+.c1{
+    background-color:palegreen; 
+    height:40px;
+    text-align:left;
+    font-weight: 700px;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    left: 0;
+     
+}
+.c1 a:hover{
+            
+            font-size: 33px;
+            color: brown;
+
+        
+}
+.c1 a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 0px;
+    padding: 70px;
+}
+#user1{
+    text-align:left; 
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:grey; 
+    border-radius: 50px;
+    margin-top: 110px;
+    margin-right: 550px;
+    margin-bottom: 110px;
+    margin-left:550px ;
+    padding-top:40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    background-color: white;
+    width: 20rem;
+    
+    
+}
+     a{
+    padding-top: 0px;
+    text-align: left;
+     margin-left: 40px;
+    height: 200px;
+    width: 100px;
+}
+body{
+    margin-top: 0px; 
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image:url(login.jpg);
+    background-size: cover;
+    height:10px ;
+}
+#f{
+    color: blue;
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 200px; 
+    margin-top: 80px;
+    text-decoration: none;
+    
+
+}
+#o{
+    margin-top: 50px;
+    text-decoration: none;
+}
+div{
+        padding-left: 70px;
+}
